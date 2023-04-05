@@ -4,7 +4,7 @@ document.getElementById("botao").addEventListener("click", exibenome);
 document.getElementById("soma").addEventListener("click", somando)
 function showcolor()
 {
-    document.body.style.backgroundColor = "#c8a2c8";
+    document.body.style.backgroundColor = "yellow";
 }
 function exibenome()
 {
@@ -16,7 +16,7 @@ function somando ()
 {
     let numero1 = document.getElementById("num1").value;
     let numero2 = document.getElementById("num2").value;
-    document.getElementById("resultado").innerHTML = "=" + parseFloat("numero1") + parseFloat("numero2");
+    document.getElementById("resultado").innerHTML = "=" + parseFloat(numero1) + parseFloat(numero2);
     document.getElementById("num1").value = "";
     document.getElementById("num2").value = "";
 }
