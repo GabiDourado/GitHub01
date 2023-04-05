@@ -48,6 +48,6 @@ function dividindo ()
     let numeroooo2 = document.getElementById("num-2").value;
     let divide = parseFloat(numeroooo1) / parseFloat(numeroooo2);
     document.getElementById("result-1").innerHTML = "= " + divide;
-    document.getElementById("numero1").value = "";
-    document.getElementById("numero2").value = "";
+    document.getElementById("num-1").value = "";
+    document.getElementById("num-2").value = "";
 }
