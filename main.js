@@ -16,7 +16,8 @@ function somando ()
 {
     let numero1 = document.getElementById("num1").value;
     let numero2 = document.getElementById("num2").value;
-    document.getElementById("resultado").innerHTML = parseFloat(numero1) + parseFloat(numero2);
+    let soma = parseFloat(numero1) + parseFloat(numero2);
+    document.getElementById("resultado").innerHTML = "= " + soma;
     document.getElementById("num1").value = "";
     document.getElementById("num2").value = "";
 }
