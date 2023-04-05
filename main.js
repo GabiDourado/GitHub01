@@ -2,7 +2,7 @@ document.addEventListener("click",showcolor);
 /*elemento - quando - ação*/
 document.getElementById("botao").addEventListener("click", exibenome);
 document.getElementById("soma").addEventListener("click", somando);
-document.getElementById("subtracao").addEventListener("click", somando);
+document.getElementById("subtracao").addEventListener("click", subtraindo);
 function showcolor()
 {
     document.body.style.backgroundColor = "yellow";
