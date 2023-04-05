@@ -3,7 +3,7 @@ document.addEventListener("click",showcolor);
 document.getElementById("botao").addEventListener("click", exibenome);
 function showcolor()
 {
-    document.body.style.backgroundColor = "yellow";
+    document.body.style.backgroundColor = "light-purple";
 }
 function exibenome()
 {
