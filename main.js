@@ -7,7 +7,7 @@ document.getElementById("multiplicacao").addEventListener("click", multiplicando
 document.getElementById("divisao").addEventListener("click", dividindo);
 function showcolor()
 {
-    document.body.style.backgroundColor = "yellow";
+    document.body.style.backgroundColor = "#D83EEA";
 }
 function exibenome()
 {
